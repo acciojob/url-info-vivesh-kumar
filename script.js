@@ -1,8 +1,13 @@
 //your JS code here. If required.
-const currenulr =window.location.href;
-	
-const lengthurl =currenulr.length;
-alert(`The length of the url is:${lengthurl}`);
+// Get the current URL using the location object
+const currentURL = window.location.href;
+
+// Calculate the length of the URL
+const urlLength = currentURL.length;
+
+// Display the length using an alert
+alert(`The length of the URL is: ${urlLength}`);
+
 
 
 
